@@ -2,6 +2,4 @@
 this is for git hooks  of mahalogin
 
 web hooks call jenkins
-
-1 st
-2 nd
+this is 1st change

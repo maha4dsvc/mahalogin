@@ -1,0 +1,13 @@
+---
+- hosts: webserver
+  become: yes
+  gather_facts: yes
+
+  vars:
+    webservervalue: apache2
+
+  tasks:
+    - name: Install Apache2
+      apt:
+        name: "{{ webservervalue }}"
+       

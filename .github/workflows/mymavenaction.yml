@@ -18,7 +18,7 @@ jobs:
     - name: Java jdk setup
       uses: actions/setup-java@v1
       with:
-        java-version: 12
+        java-version: 17
 
     - name: maven target # change accordingly
       run: mvn clean install

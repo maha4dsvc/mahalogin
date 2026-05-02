@@ -1,4 +1,4 @@
-name: End to End CI/CD workflow for Java Applicaton with Maven, Sonar and k8s Intergation
+name: End to End CI/CD workflow for Java Applicaton with Maven, Sonar and k8s Intergations
 
 on:
   push:
